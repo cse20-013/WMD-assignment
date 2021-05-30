@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .top{
+    min-height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(zhang-kaiyv-2m7Wc_IFV5U-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+  }
+  .top p{
+    
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-top: 10%;
+    color:darkgoldenrod;
+    
+  }
+  nav{
+    display: flex;
+    padding: 1% 3%;
+    justify-content: space-between;
+    text-decoration: none;
+  }
+  nav img{
+    width: 140px;
+    padding-top: -50%;
+}
+  .page-links{
+    flex: 5;
+    text-align: right;
+    
+  }
+  .page-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 6px 15px;
+    position: relative;
+  }
+  .page-links ul li a{
+    color:goldenrod;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .page-links ul li a:hover{
+    color:rgba(129, 110, 3, 0.507);
+    
+  }
+  nav .fa{
+    display: none;
+  }
+
+  .Backbtn a{
+    margin-top: 5%;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    color:darkturquoise;
+    border: 2px solid orange;
+    border-radius: 30px;
+    padding: 12px 30px;
+    margin-left: 45%;
+}
